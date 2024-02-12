@@ -1,0 +1,60 @@
+body {
+  background-color:  rgb(155, 205, 205);
+  margin: 1;
+}
+.yesMain {
+  position: absolute; /* or relative, depending on the layout */
+  top: 50%; /* 50% from the top of the parent container */
+  left: 50%; /* 50% from the left of the parent container */
+  transform: translate(-50%, -50%); /* move the div back by half of its own width and height */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+h1 {
+  text-align: center;
+
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif; 
+}
+
+h3 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif; 
+}
+
+.sun {
+  margin-left: -40px;
+}
+
+button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  size: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif; 
+}
