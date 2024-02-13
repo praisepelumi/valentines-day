@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let noText = document.querySelector('.noText')
 
   let randomIndex = 0;
+  let buttonSize = 25;
   let funnyTexts = [
     "I thought you were my sunshine",
     "I thought I was your honey bun",
@@ -34,6 +35,8 @@ document.addEventListener('DOMContentLoaded', () => {
     image.src = cryingImages[randomIndex];
     noText.textContent = funnyTexts[randomIndex];
     randomIndex = (randomIndex + 1) % funnyTexts.length;
+    yes.style.fontSize = `${buttonSize}px`
+    buttonSize += 12
   });
 
 });
